@@ -1,7 +1,4 @@
 {
-  "name": "escolhaescalonada",
-  "version": "1.0.0",
-  "description": "ZK-STV",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
