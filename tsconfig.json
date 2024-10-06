@@ -1,0 +1,14 @@
+{
+  "extends": "@tsconfig/svelte/tsconfig.json", // Extende as configurações padrão do Svelte
+  "compilerOptions": {
+    "target": "ESNext", // Define a versão do ECMAScript
+    "useDefineForClassFields": true, // Usa `define` para campos de classe
+    "module": "ESNext", // Define o módulo para ESNext
+    "resolveJsonModule": true, // Permite a importação de arquivos JSON
+    "allowJs": true, // Permite o uso de arquivos JavaScript
+    "checkJs": true, // Ativa a verificação de tipos em arquivos JavaScript
+    "isolatedModules": true // Garante que cada arquivo seja tratado como um módulo isolado
+  },
+  "include": ["src/**/*.d.ts", "src/**/*.ts", "src/**/*.js", "src/**/*.svelte"], // Inclui todos os arquivos relevantes
+  "references": [{ "path": "./tsconfig.node.json" }] // Referência para configuração adicional
+}

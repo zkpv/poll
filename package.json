@@ -1,0 +1,27 @@
+{
+  "name": "meu-projeto-stv",
+  "version": "1.0.0",
+  "description": "Descrição do meu projeto STV",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "vite build", // Exemplo de script de build
+    "dev": "vite" // Exemplo de script para desenvolvimento
+  },
+  "dependencies": {
+    "vite": "^3.0.0", // Adicione as dependências principais
+    "@sveltejs/vite-plugin-svelte": "^2.4.1" // Exemplo de dependência
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0", // Exemplo de dependência de desenvolvimento
+    "prettier": "^2.5.1" // Exemplo de dependência de formatação
+  },
+  "engines": {
+    "node": ">=14.18.0 || >=16.0.0" // Versão recomendada do Node.js [[4]](https://poe.com/citation?message_id=264250854118&citation=4)
+  },
+  "optionalDependencies": {
+    "fsevents": "~2.3.2" // Exemplo de dependência opcional
+  },
+  "license": "MIT",
+  "private": true
+}

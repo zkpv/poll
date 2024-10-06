@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "composite": true, // Permite a compilação em modo composto, útil para projetos com múltiplas configurações
+    "skipLibCheck": true, // Ignora a verificação de tipos em arquivos de declaração de biblioteca
+    "module": "ESNext", // Define o módulo para ESNext
+    "moduleResolution": "bundler" // Utiliza a resolução de módulos do tipo bundler
+  },
+  "include": ["vite.config.ts"] // Inclui o arquivo de configuração do Vite
+}
