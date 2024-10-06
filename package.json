@@ -1,10 +1,10 @@
 {
   "main": "main.js",
   "scripts": {
-    "start": "node index.js",
-    "build": "vite build", // Exemplo de script de build
-    "dev": "vite" // Exemplo de script para desenvolvimento
-  },
+    "build": "vite build",
+    "start": "vite"
+  }
+},
   "dependencies": {
     "vite": "^3.0.0", // Adicione as dependências principais
     "@sveltejs/vite-plugin-svelte": "^2.4.1" // Exemplo de dependência
