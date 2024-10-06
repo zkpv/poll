@@ -1,5 +1,5 @@
 {
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "start": "node index.js",
     "build": "vite build", // Exemplo de script de build
