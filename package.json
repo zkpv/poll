@@ -1,7 +1,7 @@
 {
-  "name": "meu-projeto-stv",
+  "name": "escolhaescalonada",
   "version": "1.0.0",
-  "description": "Descrição do meu projeto STV",
+  "description": "ZK-STV",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
